@@ -1,0 +1,4 @@
+{
+  "displayName": "Drawing to DXF",
+  "brief": "Measure a mechanical dimension drawing and emit annotated plus Fusion 360-ready DXF"
+}

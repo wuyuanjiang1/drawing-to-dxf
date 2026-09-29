@@ -1,0 +1,4 @@
+{
+  "displayName": "尺寸图生成 DXF",
+  "brief": "把机械尺寸图测量并输出标注版与 Fusion 360 可插入的 DXF"
+}
