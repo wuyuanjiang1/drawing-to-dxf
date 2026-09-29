@@ -9,6 +9,18 @@
 
 针对 Fusion 360 报 **「无法插入此 DXF 文件」** 的场景做了专门兼容：去掉文字与填充实体、文件名 ASCII、单位 mm。
 
+![标注版预览](examples/preview_annotated.png)
+
+## 示例输出（examples/）
+
+真实生成的工业相机安装接口图，可直接下载查看：
+
+| 文件 | 说明 |
+|------|------|
+| `examples/preview_annotated.png` | 标注版渲染预览（上图） |
+| `examples/camera_mount_annotated.dxf` | 标注版 DXF：尺寸 + 孔注释（AutoCAD 打开） |
+| `examples/camera_mount_fusion.dxf` | 几何版 DXF：纯 LINE/ARC/CIRCLE（Fusion 360 插入） |
+
 ## 功能
 
 - 从图纸位图测量特征坐标（比例尺标定、圆环拟合、长直线检测）
@@ -40,6 +52,7 @@
 ├── references/
 │   ├── image-measurement.md     # 图纸照片测量方法（比例尺、环拟合、尺寸链）
 │   └── format-notes.md          # DXF 版本/编码/各 CAD 软件兼容清单
+├── examples/                    # 真实示例：预览图 + 两版 DXF
 └── locales/                     # MiMo Desktop 插件页显示名
 ```
 
